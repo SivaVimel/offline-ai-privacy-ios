@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline AI - Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+        .hero {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 60px 20px 48px;
+            border-bottom: 1px solid #e8e8ed;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #1d1d1f;
+            margin-bottom: 6px;
+        }
+        .hero .app-name {
+            font-size: 15px;
+            font-weight: 500;
+            color: #86868b;
+            margin-bottom: 8px;
+        }
+        .hero .updated {
+            font-size: 13px;
+            color: #aeaeb2;
+        }
+        .content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+        .intro {
+            font-size: 17px;
+            color: #1d1d1f;
+            font-weight: 400;
+            line-height: 1.65;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 28px 24px;
+            margin-bottom: 16px;
+        }
+        .section h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+        }
+        .section p {
+            font-size: 14px;
+            color: #48484a;
+            margin-bottom: 12px;
+        }
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+        .section ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        .section ul:last-child {
+            margin-bottom: 0;
+        }
+        .section li {
+            font-size: 14px;
+            color: #48484a;
+            margin-bottom: 6px;
+        }
+        .section li:last-child {
+            margin-bottom: 0;
+        }
+        .summary-box {
+            background-color: #1d1d1f;
+            border-radius: 16px;
+            padding: 28px 24px;
+            margin-bottom: 16px;
+        }
+        .summary-box h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        .summary-box p {
+            font-size: 14px;
+            color: #d1d1d6;
+            line-height: 1.7;
+        }
+        .contact-box {
+            background-color: #ffffff;
+            border-radius: 16px;
+            padding: 28px 24px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .contact-box h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 8px;
+        }
+        .contact-box p {
+            font-size: 14px;
+            color: #48484a;
+            margin-bottom: 12px;
+        }
+        .contact-box a {
+            font-size: 15px;
+            font-weight: 500;
+            color: #1d1d1f;
+            text-decoration: none;
+            border-bottom: 1px solid #aeaeb2;
+            padding-bottom: 1px;
+        }
+        .contact-box a:hover {
+            color: #48484a;
+            border-bottom-color: #48484a;
+        }
+        .footer {
+            text-align: center;
+            padding: 24px 20px 40px;
+            font-size: 12px;
+            color: #aeaeb2;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #000000;
+                color: #f5f5f7;
+            }
+            .hero {
+                background-color: #1c1c1e;
+                border-bottom-color: #2c2c2e;
+            }
+            .hero h1 {
+                color: #f5f5f7;
+            }
+            .hero .app-name {
+                color: #86868b;
+            }
+            .hero .updated {
+                color: #636366;
+            }
+            .intro {
+                color: #f5f5f7;
+            }
+            .section {
+                background-color: #1c1c1e;
+            }
+            .section h2 {
+                color: #f5f5f7;
+            }
+            .section p, .section li {
+                color: #aeaeb2;
+            }
+            .summary-box {
+                background-color: #f5f5f7;
+            }
+            .summary-box h2 {
+                color: #1d1d1f;
+            }
+            .summary-box p {
+                color: #48484a;
+            }
+            .contact-box {
+                background-color: #1c1c1e;
+            }
+            .contact-box h2 {
+                color: #f5f5f7;
+            }
+            .contact-box p {
+                color: #aeaeb2;
+            }
+            .contact-box a {
+                color: #f5f5f7;
+                border-bottom-color: #636366;
+            }
+            .contact-box a:hover {
+                color: #d1d1d6;
+                border-bottom-color: #d1d1d6;
+            }
+            .footer {
+                color: #48484a;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 44px 16px 36px;
+            }
+            .hero h1 {
+                font-size: 28px;
+            }
+            .content {
+                padding: 28px 16px 48px;
+            }
+            .section, .summary-box, .contact-box {
+                padding: 22px 18px;
+                border-radius: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <p class="app-name">Offline AI</p>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: March 31, 2026</p>
+    </div>
+
+    <div class="content">
+        <p class="intro">Offline AI is built around one principle: your data stays on your device. We do not collect, store, or transmit any personal information.</p>
+
+        <div class="section">
+            <h2>Data Collection</h2>
+            <p>We do not collect any personal data. Specifically:</p>
+            <ul>
+                <li>No personal information such as name, email, or phone number</li>
+                <li>No usage data, analytics, or telemetry</li>
+                <li>No cookies, trackers, or third-party analytics</li>
+                <li>No device identifiers or advertising IDs</li>
+                <li>No advertisements of any kind</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>On-Device Processing</h2>
+            <p>When using the built-in AI model, all processing happens entirely on your device. Your conversations, prompts, documents, images, voice recordings, notes, and tasks are stored locally and never transmitted to any server.</p>
+        </div>
+
+        <div class="section">
+            <h2>Cloud AI Services</h2>
+            <p>You may optionally connect third-party AI services (Google Gemini, OpenAI, Anthropic Claude, Groq, or custom endpoints) using your own API keys. When you use a cloud AI service:</p>
+            <ul>
+                <li>Prompts are sent directly from your device to the provider you configured</li>
+                <li>We do not act as an intermediary or route traffic through our servers</li>
+                <li>API keys are stored locally on your device and never transmitted to us</li>
+                <li>Your use of third-party services is subject to their respective privacy policies</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Web Search</h2>
+            <p>The optional web search feature sends queries directly from your device to third-party search services. We do not log, store, or intercept your search queries. Results are processed on your device or by your configured AI provider.</p>
+        </div>
+
+        <div class="section">
+            <h2>Website Content</h2>
+            <p>When you provide a URL, the webpage is fetched directly from your device to the website's server. We do not proxy, cache, or store the content of any website you visit through the App.</p>
+        </div>
+
+        <div class="section">
+            <h2>Speech Recognition</h2>
+            <p>The App uses Apple's built-in Speech Recognition framework for voice input and transcription. We do not access, store, or transmit your audio recordings. Refer to Apple's privacy policy for details on speech data handling.</p>
+        </div>
+
+        <div class="section">
+            <h2>Camera and Photo Library</h2>
+            <p>Images you capture or select are processed locally on your device, or sent to your configured cloud AI provider if using a vision-capable cloud model. We never access, collect, or store your photos.</p>
+        </div>
+
+        <div class="section">
+            <h2>Local Data Storage</h2>
+            <p>The following data is stored locally on your device:</p>
+            <ul>
+                <li>Conversation history</li>
+                <li>Notes and to-do items</li>
+                <li>System instructions and preferences</li>
+                <li>API keys and endpoint configurations</li>
+                <li>Imported AI models</li>
+            </ul>
+            <p>All locally stored data is deleted when you uninstall the App. We have no access to any of this data.</p>
+        </div>
+
+        <div class="section">
+            <h2>Children's Privacy</h2>
+            <p>The App is not directed at children under 13. We do not knowingly collect personal information from children. Since the App does not collect data from any user, no special provisions are necessary.</p>
+        </div>
+
+        <div class="section">
+            <h2>Third-Party Services</h2>
+            <p>The App does not integrate third-party SDKs, analytics frameworks, advertising networks, or social media trackers. The only external services are those you explicitly choose to connect.</p>
+        </div>
+
+        <div class="section">
+            <h2>Data Security</h2>
+            <p>All data remains on your device, protected by iOS built-in security including device passcode, Face ID, Touch ID, and data encryption. We recommend keeping your device software up to date.</p>
+        </div>
+
+        <div class="section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this policy from time to time. Changes will be reflected on this page with an updated date. We encourage you to review this page periodically.</p>
+        </div>
+
+        <div class="summary-box">
+            <h2>In Short</h2>
+            <p>Offline AI does not collect your data. Your conversations, files, and API keys stay on your device. We have no servers, no accounts, no tracking, and no way to access anything you do in the App.</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Contact</h2>
+            <p>Questions about this policy?</p>
+            <a href="mailto:sivavimelrajhen@gmail.com">sivavimelrajhen@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 SVR. All rights reserved.
+    </div>
+</body>
+</html>
